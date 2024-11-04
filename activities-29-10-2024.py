@@ -35,7 +35,7 @@ print(counttest.count("MM")) #Counts 4 at "m m MM MMm MMMM"
 
 #.find()
 #This method takes a string as an input and returns the first position it appears in the original string as an integer.
-finding = text.find("q")
+finding = text.find("M")
 print(finding)
 finding2 = text.find("Me") # Returns the position of the M in Me
 print(finding2)
@@ -46,7 +46,7 @@ replacement = text.replace("Sam", "Michael")
 print(replacement)
 
 #.strip()
-#This method removes any spaces at the start and end of the string
+#This method removes the given string (or spaces if empty) at the start and end of the original string
 stripped = text.strip()
 print(stripped)
 print(len(text))

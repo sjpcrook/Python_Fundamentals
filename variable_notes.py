@@ -32,11 +32,11 @@ favourite_drink = "latte"
 # print(15/3)
 # print(16%3)
 
-balance = 100
-print(f"Your balance is currently £{balance}")
-withdraw_amount = int(input("How much would you like to withdraw?:  > "))
-balance = balance - withdraw_amount
-print(f"You have withdrawn {withdraw_amount} and your balance is now £{balance}")
+# balance = 100
+# print(f"Your balance is currently £{balance}")
+# withdraw_amount = int(input("How much would you like to withdraw?:  > £"))
+# balance = balance - withdraw_amount
+# print(f"You have withdrawn £{withdraw_amount} and your balance is now £{balance}")
 
 # print("Type in two numbers to multiply them")
 
